@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 
 
-genai.configure(api_key="AIzaSyArOqXbAw7Tl0fS7m-n7Y0xUxLkhKQTx00")
+genai.configure(api_key="your_api_kye")
 
 
 
