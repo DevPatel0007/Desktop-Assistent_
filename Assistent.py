@@ -96,7 +96,7 @@ def speak(text):
 # Defining a function that takes audio as input and converts it to text
 def recognize(audio):
     try:
-        text = recognize_face.recognize_google(audio)
+        text = recognize.recognize_google(audio)
         print("You said: " + text)
         return text
     except:
